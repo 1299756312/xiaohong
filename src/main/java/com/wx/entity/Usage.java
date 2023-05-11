@@ -1,15 +1,42 @@
-package com.wx.entity;
+package com.tencent.wxcloudrun.entity;
 
-import lombok.Data;
-
-/**
- * @Author wushijie
- * 消息用量类
- */
-@Data
 public class Usage {
-    private Integer prompt_tokens; // 输入花费
-    private Integer completion_tokens; //返回花费
-    private Integer total_tokens;  //总花费
+    private int prompt_tokens;
 
+    private int completion_tokens;
+
+    private int total_tokens;
+
+    public void setPrompt_tokens(int prompt_tokens) {
+        this.prompt_tokens = prompt_tokens;
+    }
+
+    public void setCompletion_tokens(int completion_tokens) {
+        this.completion_tokens = completion_tokens;
+    }
+
+    public void setTotal_tokens(int total_tokens) {
+        this.total_tokens = total_tokens;
+    }
+
+
+
+
+
+
+    public String toString() {
+        return "Usage(prompt_tokens=" + getPrompt_tokens() + ", completion_tokens=" + getCompletion_tokens() + ", total_tokens=" + getTotal_tokens() + ")";
+    }
+
+    public int getPrompt_tokens() {
+        return this.prompt_tokens;
+    }
+
+    public int getCompletion_tokens() {
+        return this.completion_tokens;
+    }
+
+    public int getTotal_tokens() {
+        return this.total_tokens;
+    }
 }
