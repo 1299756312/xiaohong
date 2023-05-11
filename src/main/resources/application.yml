@@ -29,5 +29,6 @@ rest:
     isStartProxy: true
     proxyIP: 127.0.0.1
     port: 7890
-
+server:
+  port: 80
 
