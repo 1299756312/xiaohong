@@ -1,4 +1,4 @@
-package com.tencent.wxcloudrun.entity;
+package com.wx.entity;
 
 public class Usage {
     private int prompt_tokens;

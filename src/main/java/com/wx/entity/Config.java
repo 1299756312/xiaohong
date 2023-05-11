@@ -1,4 +1,4 @@
-package com.tencent.wxcloudrun.entity;
+package com.wx.entity;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.tencent.wxcloudrun.entity;
+package com.wx.entity;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.tencent.wxcloudrun.utils;
+package com.wx.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

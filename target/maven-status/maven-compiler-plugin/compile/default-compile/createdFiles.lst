@@ -1,0 +1,17 @@
+com\wx\aop\CmpTimeAop.class
+com\wx\utils\DateUtil.class
+com\wx\Main.class
+com\wx\config\RestProxyConfig$MyResponseErrorHandler.class
+com\wx\config\RestProxyConfig$1.class
+com\wx\controller\TestController.class
+com\wx\controller\WxController.class
+com\wx\entity\openAI\Choice.class
+com\wx\config\OpenAIAsk.class
+com\wx\entity\openAI\Message.class
+com\wx\entity\openAI\OpenAIRes.class
+com\wx\annotation\CmpTime.class
+com\wx\config\RestProxyConfig.class
+com\wx\service\OpenAIService.class
+com\wx\utils\XmlToJsonUtils.class
+com\wx\config\RestProxyConfig$MyMappingJackson2HttpMessageConverter.class
+com\wx\entity\openAI\Usage.class
